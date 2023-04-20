@@ -3,10 +3,11 @@ const h1 = document.querySelector(".hello h1")
 console.dir(h1);
 
 function handleTitleClick() {
-    if (h1.style.color === "blue") {
-        h1.style.color = "tomato";
+    const clickedClass = "clicked";
+    if (h1.className === clickedClass) {
+        h1.className = "";
     } else {
-        h1.style.color = "blue";
+        h1.className = clickedClass;
     }
 }
 
