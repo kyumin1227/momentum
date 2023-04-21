@@ -1,0 +1,29 @@
+.width_large {
+    background-color: #EEBC12;
+}
+
+.width_middle {
+    background-color: #904EAD;
+}
+
+.width_small {
+    background-color: #2E8CD5;
+}
+
+h1 {
+    color: white;
+    padding: 10px;
+}
+
+div {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+}
