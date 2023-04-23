@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+}
+
+header, main {
+    margin-left: 10px;
+}
+
+h1 {
+    margin: 10px 0px;
+}
+
+main:first-child > h1, h4 {
+    line-height: 50px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.hidden {
+    display: none;  
+}
+
+.result {
+    font-weight: 700;
+}
+

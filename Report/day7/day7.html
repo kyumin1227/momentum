@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="day7.css">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1 class="bold">Random Number Game</h1></header>
+    <main>
+        <h4 class="inline bold">Generate a number between 0 and </h4>
+        <input type="number" min="0">
+        <br>
+        <p class="inline">Guess the number:</p>
+        <form class="inline">
+            <input type="number" min="0">
+            <button>play!</button>
+        </form>
+        <p class="hidden">You chose: <span class="chose_number"></span>, the machine chose: <span class="random_number"></span>.<br>
+        <span class="result bold"></span></p>
+    </main>
+
+    <script src="day7.js"></script>
+</body>
+</html>
