@@ -4,32 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Momentum App</title>
 </head>
 <body>
-    <form class="login-form hidden">
-        <input required maxlength="15" type="text" placeholder="What is your name?">
-        <button>Log In</button>
-    </form>
-    <h2 id="clock">00:00:00</h2>
-    <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press" required>
-        
-    </form>
-    <ul id="todo-List">
-    
-    </ul>
-    <div id="lyric">
-        <span></span>
-        <span></span>
-    </div>
+    <main class="Left">
+        <h2 id="clock">00:00:00</h2>
 
-    <div id="weather">
-        <span></span>
-        <span></span>
-    </div>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+
+        <form class="login-form hidden">
+            <input required maxlength="15" type="text" placeholder="What is your name?">
+            <button>Log In</button>
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do and Press" required maxlength="30">
+        
+        </form>
+        <ul id="todo-List">
+        
+        </ul>
+        
+        
+    </main>
+
+    <main class="Right">
+        <div id="youtubeLink"></div>
+
+        <div id="lyric">
+            <span></span>
+            <span></span>
+        </div>
+    </main>
 
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
